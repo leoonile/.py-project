@@ -26,7 +26,7 @@ def main():
 
     import google.generativeai as genai
     genai.configure(api_key=gemini_api_key)
-    elevenlabs = ElevenLabs(api_key="sk_5a2fac9787176db10989606d4e3b6b5cb48e872dca9f1968")    
+    elevenlabs = ElevenLabs(api_key="sk_173f42dea5e0c7544a14cbdc435d94dbb8e31416b835292f")    
 
     model = genai.GenerativeModel(
         "gemini-2.5-flash",
